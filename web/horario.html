@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Enlazamos la hoja de estilos y los enlaces de las fuentes-->
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/styleshorario.css" > 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Oswald:wght@200..700&family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Lilita+One&family=Oswald:wght@200..700&family=Permanent+Marker&display=swap" rel="stylesheet">
+        <title>Horario</title>
+    </head>
+    <body>
+    <!-- Cabecera -->
+    <header>
+        <h1>IES Pablo Picasso</h1>
+    </header>
+
+    <!-- Menú de Navegación -->
+    <nav>
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./horario.html">Horario</a><li>
+        </ul>
+    </nav>
+
+        <!-- Ponemos un título a nuestro Horario-->
+        <h1 class="oswaldFuente">HORARIO 1ºDAM 24/25</h1>
+         <!-- Creamos la tabla del Horario-->
+            <table> 
+                <tr class="dias">
+                    <td> HORA </td>
+                    <td> LUNES </td>
+                    <td> MARTES </td>
+                    <td> MIÉRCOLES </td>
+                    <td> JUEVES </td>
+                    <td> VIERNES </td>
+                <tr>
+                    <td class="horas"> 8:15 <br>9:15 </td>
+                    <!-- Utilizamos las propiedades rowspan y colspan para unir las celdas-->
+                    <td class="programacion" rowspan="2"> PROGRAMACIÓN </td>
+                    <td class="fol"> IPE (FOL) </td>
+                    <td class="endes" rowspan="2"> ENDES </td>
+                    <td class="programacion" rowspan="2"> PROGRAMACIÓN </td>
+                    <td class= "bbdd" rowspan="2"> BASE DE DATOS </td>
+                <tr>
+                    <td class="horas"> 9:15 <br>10:15 </td>
+                    <td class="endes"> ENDES </td>
+                <tr>
+                    <td class="horas"> 10:15 <br>11:15
+                    <td class= "bbdd"> BASE DE DATOS </td>
+                    <td class="lenguaje"> LENG MARCAS </td>
+                    <td class= "bbdd"> BASE DE DATOS </td>
+                    <td class="fol"> IPE (FOL) </td>
+                    <td class="sostenibilidad"> SOSTENIBILIDAD </td>
+                <tr>
+                    <td class="horas"> 11:15 <br>11:45 </td>
+                    <td class="recreo" colspan="5"> <p>RECREO</p> </td>
+                <tr>
+                    <td class="horas"> 11:45 <br>12:45 </td>
+                    <td class= "bbdd"> BASE DE DATOS </td>
+                    <td class="programacion" rowspan="3"> PROGRAMACIÓN </td>
+                    <td class= "bbdd"> BASE DE DATOS </td>
+                    <td class="lenguaje" rowspan="2"> LENG MARCAS </td>
+                    <td class="fol"> IP (FOL) </td>
+                <tr>
+                    <td class="horas"> 12:45 <br>13:45 </td>
+                    <td class="sistemas" rowspan="2"> SIST INFO </td>
+                    <td class="sistemas" rowspan="2"> SIST INFO </td>
+                    <td class="sistemas"> SIST INFO </td>         
+                <tr>
+                    <td class="horas"> 13:45 <br>14:45 </td>
+                    <td class="digitalizacion"> DIGITALIZACIÓN </td>
+                    <td class="programacion"> PROGRAMACIÓN </td>
+            </table>
+    <!-- Pie de Página -->
+    <footer>
+        <p>Desarrollado por IES Pablo Picasso</p>
+    </footer>
+    </body>
+</html>
